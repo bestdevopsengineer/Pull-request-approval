@@ -19,7 +19,7 @@ jobs:
 
    
       - name: Deploy to Dev environment
-        run: echo "Deploying to Development environment..."
+        run: echo "Deploying to Development environment jou..."
         # Add your Dev deployment commands here
         # Example: `npm run deploy-dev`
 
