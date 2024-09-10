@@ -19,7 +19,7 @@ jobs:
 
    
       - name: Deploy to Dev environment
-        run: echo "Deploying to Development environment..."
+        run: echo "Deploying to Development environment jou..."
         # Add your Dev deployment commands here
         # Example: `npm run deploy-dev`
 
@@ -44,13 +44,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: first approval
-        uses: hmarr/auto-approve-action@v2
-        with:
-          GITHUB_TOKEN: ${{ secrets.GHATOKEN }}
-        env:
-          approvers: |
-            tanekemgangdubois
+
 
       - name: Deploy to Production environment
         run: echo "Deploying to Production environment..."
